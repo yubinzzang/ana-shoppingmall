@@ -11,9 +11,9 @@ spring.profiles.include: local-social
 spring:
   datasource:
     driverClassName: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://10.0.70.247:3306/petclinic?characterEncoding=UTF-8&serverTimezone=UTC
-    username: petclinic
-    password: petclinic
+    url: jdbc:mariadb://10.0.70.81:3306/spring_shoppingcartdb2?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: password
   jpa:
     database: mysql
     properties:
